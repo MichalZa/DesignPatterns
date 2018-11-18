@@ -2,7 +2,6 @@
 
 namespace Behavioral\Strategy;
 
-
 class Cpanel implements PlatformInterface
 {
     public function copy(File $file)

@@ -2,7 +2,6 @@
 
 namespace Behavioral\Strategy;
 
-
 class FileManager
 {
     /**
