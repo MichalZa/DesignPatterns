@@ -19,5 +19,5 @@ $worker->attach($bossObserver);
 $worker->loungeAround(); // boss starts screaming
 
 $worker->detach($bossObserver);
-$worker->loungeArounde(); // no one screaming
+$worker->loungeAround(); // no one screaming
 
