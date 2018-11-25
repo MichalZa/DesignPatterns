@@ -5,11 +5,11 @@ namespace Creational\Builder;
 class Beer {
 
     /**
-     * @var $name string
+     * @var string $name
      */
     private $name;
     /**
-     * @var $power float
+     * @var float $power
      */
     private $power;
 
