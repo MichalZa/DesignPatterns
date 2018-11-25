@@ -7,7 +7,7 @@ class Factory
     public function create($type)
     {
         $typeClass = __NAMESPACE__ . "\\$type";
-        if (!class_alias($typeClass)) {
+        if (!class_exists($typeClass)) {
             throw new \Exception("$typeClass does not exist!");
         }
         if (!in_array(CarInterface::class, class_implements($typeClass))) {

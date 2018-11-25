@@ -2,7 +2,7 @@
 
 namespace Behavioral\Strategy;
 
-class DirectAdmin implements FileManagerInterface
+class DirectAdmin implements PlatformInterface
 {
     public function copy(File $file)
     {

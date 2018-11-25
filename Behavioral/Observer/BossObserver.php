@@ -1,6 +1,6 @@
 <?php
 
-namespace Behavioral\Strategy;
+namespace Behavioral\Observer;
 
 class BossObserver
 {
