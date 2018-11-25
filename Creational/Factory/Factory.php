@@ -4,7 +4,7 @@ namespace Creational\Factory;
 
 class Factory
 {
-    public function create($type)
+    public function create(string $type) : CarInterface
     {
         $typeClass = __NAMESPACE__ . "\\$type";
         if (!class_exists($typeClass)) {
