@@ -24,7 +24,7 @@ class Facade
      */
     public function develop()
     {
-        $this->brain->think();
+        $this->brain->thinking();
         $this->hands->typing();
     }
 }

@@ -9,5 +9,5 @@ interface BrainInterface
      *
      * @return mixed
      */
-    public function typing();
+    public function thinking();
 }
